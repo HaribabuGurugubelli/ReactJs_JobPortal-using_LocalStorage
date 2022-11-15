@@ -1,0 +1,261 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@700&family=Roboto:wght@900&display=swap");
+
+input {
+  /* text-transform: uppercase; */
+}
+
+/* View Pan Card Css */
+
+.pan-front {
+  position: relative;
+}
+.mx-10 {
+  min-height: 30em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-img {
+  max-width: 100%;
+  width: auto;
+  height: 205px;
+}
+.mx-10 > div {
+  display: inline-block;
+}
+.mx-10 > div:last-child {
+  margin-left: 2em;
+}
+.view-pan .text-block {
+  position: absolute;
+  top: 18px;
+  left: 0.95em;
+  font-family: "Roboto", sans-serif;
+  font-size: 13.5px;
+}
+
+.view-pan .text-block .pan-number {
+  margin-top: 5.2em;
+  margin-left: 8.1em;
+  font-weight: 700;
+  font-size: small;
+}
+
+.view-pan .text-block .pan-name {
+  margin-top: 16px;
+  font-weight: 700;
+  font-size: smaller;
+}
+
+.view-pan .text-block .pan-father-name {
+  margin-top: 15px;
+  font-weight: 700;
+  font-size: smaller;
+}
+
+.view-pan .text-block .pan-dob {
+  margin-top: 18px;
+  font-weight: 700;
+  font-size: smaller;
+}
+
+.pan-photo {
+  margin-left: 16.1em;
+  margin-top: -7.5em;
+}
+
+.pan-qr {
+  margin-top: -22em;
+  margin-left: 0em;
+}
+
+.pan-sign {
+  margin-top: -9em;
+  height: 26px;
+  width: 96px;
+  margin-left: 4.9em;
+}
+
+/* Rc Card Css */
+
+.rc-card-view .card-img,
+.dl-view .card-img {
+  border: 1px solid rgb(189, 178, 178);
+}
+
+.rc-front,
+.rc-back,
+.dl-front,
+.dl-back {
+  position: relative;
+}
+
+.rc-card-view .front-text-block {
+  position: absolute;
+  top: 37px;
+  left: 11em;
+}
+.rc-card-view .front-text-block > h6 {
+  margin: 0;
+  line-height: 11px;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+
+.rc-card-view .front-text-block > h6.regn-number {
+  color: rgb(241, 76, 76);
+  font-size: 14px;
+  margin-bottom: 4px;
+  margin-top: 2px;
+}
+.rc-card-view .front-text-block > h6.owner-name {
+  margin-bottom: 2px;
+}
+.rc-card-view .front-text-block > h6.rc-address {
+  min-height: 14.4vh;
+  margin-top: 4px;
+  line-height: 95%;
+}
+.rc-card-view .front-text-block > h6.maker-class {
+  margin-bottom: 2px;
+}
+.rc-card-view .front-text-block > h6.vehicle-class {
+  margin-bottom: 2px;
+}
+.rc-card-view .front-text-block > h6.mfg-year {
+  margin-bottom: 2px;
+}
+.rc-card-view .front-text-block > h6.fuel-type {
+  margin-bottom: 2px;
+}
+
+.rc-card-view .back-text-block {
+  position: absolute;
+  top: 8px;
+  left: 10vw;
+  font-weight: bold;
+}
+.rc-card-view .back-text-block > h6 {
+  margin: 0;
+  line-height: 12.5px;
+  font-size: 11px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+.rc-card-view .back-text-block > h6.cc {
+  margin-top: 1px;
+}
+.rc-card-view .back-text-block > h6.seating-capacity {
+  margin-top: 1.5px;
+}
+.rc-card-view .back-text-block > h6.colour {
+  margin-top: 1.5px;
+}
+.rc-card-view .back-text-block > h6.finance {
+  margin-top: 1.5px;
+  height: 17px;
+}
+.rc-card-view .back-text-block > h6.rto {
+  margin-top: 32px;
+  margin-left: 50px;
+  font-size: 10px;
+}
+
+/* Driving Licence Css */
+
+.dl-view .front-text-block {
+  position: absolute;
+  top: 38px;
+  left: 6.7vw;
+}
+.dl-view .front-text-block > h6 {
+  margin: 0;
+  /* line-height: 11px; */
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0px;
+  font-weight: 900;
+  /* text-shadow: 1px 1px rgb(26, 23, 23); */
+  text-shadow: #e6e1d4 0 0 15px;
+  transition: 0.4s;
+}
+.dl-view .front-text-block > h6.dl-number {
+  color: rgb(241, 76, 76);
+  font-size: 15px;
+}
+.dl-view .front-text-block > h6.address {
+  height: 57px;
+  max-width: 144px;
+}
+.dl-view .front-text-block > h6.doi {
+  margin-left: 49px;
+  margin-top: 49.6px;
+  font-size: 10px;
+}
+.dl-view .front-text-block > h6.rto {
+  margin-left: 120px;
+  margin-top: -13px;
+  font-size: 10px;
+}
+.dl-view .front-text-block > .dl-photo {
+  margin-left: 11.5vw;
+  margin-top: -261px;
+}
+.dl-view .front-text-block > .dl-photo-sub {
+  margin-left: -20.5vw;
+  margin-top: -124px;
+}
+
+.dl-view .back-text-block {
+  position: absolute;
+  top: 0px;
+  left: 7.5vw;
+  max-width: 203px;
+}
+.dl-view .back-text-block > h6 {
+  margin: 0;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0px;
+  font-weight: 900;
+  /* text-shadow: 1px 1px rgb(26, 23, 23); */
+  text-shadow: #e6e1d4 0 0 15px;
+  transition: 0.4s;
+}
+.dl-view .back-text-block > h6.non-transport {
+  font-size: 11px;
+  height: 25px;
+  margin-top: 12px;
+}
+.dl-view .back-text-block > h6.non-transport-validity {
+  margin-top: 11px;
+}
+.dl-view .back-text-block > h6.transport {
+  margin-top: 1px;
+  height: 30px;
+}
+.dl-view .back-text-block > h6.transport-validity {
+  margin-top: 1px;
+  height: 14px;
+}
+.dl-view .back-text-block > h6.dl-badge {
+  height: 14px;
+}
+.dl-view .back-text-block > h6.reference-no {
+  height: 13px;
+}
+.dl-view .back-text-block > h6.first-issue {
+  margin-top: 2px;
+}
+.dl-view .back-text-block > h6.dob {
+  margin-top: 1px;
+}
+.traffic-lights {
+  margin-top: -106px;
+  margin-left: 10.3vw;
+}
+.traffic-lights > img {
+  margin: -2.5px;
+}
